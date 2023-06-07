@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Inicio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="user.html"
+                >Crear Usuario</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Fin Barra navegación -->
+
+    <!-- Formulario -->
+
+    <form>
+      <div>
+        <input
+          type="text"
+          id="nameInput"
+          class=""
+          placeholder="Nombre"
+          value="Ejemplo"
+        />
+      </div>
+      <div>
+        <input
+          type="email"
+          id="emailInput"
+          class=""
+          placeholder="Correo"
+          value="ejemplo@ejemplo.es"
+        />
+      </div>
+      <div>
+        <input
+          type="password"
+          id="passwordInput"
+          class=""
+          placeholder="Contraseña"
+          value="Contraseña"
+        />
+      </div>
+      <div>
+        <input
+          type="password"
+          id="confirmPasswordInput"
+          class=""
+          placeholder="Confirmar contraseña"
+          value="Contraseña"
+        />
+      </div>
+
+      <input type="button" id="buttonInput" value="Enviar" />
+      <p id="parrafo"></p>
+    </form>
+
+    <!-- Fin formulario -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/js/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Main js -->
+    <script src="../js/index.js"></script>
+  </body>
+</html>
