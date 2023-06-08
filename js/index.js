@@ -2,9 +2,7 @@
 const nameInputSelector = document.querySelector("#name-input");
 const emailInputSelector = document.querySelector("#email-input");
 const passwordInputSelector = document.querySelector("#password-input");
-const confirmPasswordInputSelector = document.querySelector(
-  "#confirm-password-input"
-);
+const confirmPasswordInputSelector = document.querySelector("#confirm-password-input");
 const buttonInputSelector = document.querySelector("#button-input");
 const parrafoErrorSelector = document.querySelector("#p-error");
 const parrafoExitoSelector = document.querySelector("#p-exito");
@@ -15,7 +13,7 @@ let credenciales = {};
 
 // Función guardar usuario
 function guardarUsuario() {
-  localStorage.setItem("credenciales", JSON.stringify(credenciales));
+  localStorage.setItem(credenciales.email, JSON.stringify(credenciales));
   console.log(credenciales);
 }
 
@@ -70,14 +68,10 @@ function validarCredenciales(event) {
   // Borrar mensaje
   setTimeout(function () {
     parrafoErrorSelector.innerHTML = "";
+    parrafoExitoSelector.innerHTML = ""; // Faltaba el parrafoExito para que desaparezca a los 3 seg
+    window.location.href = document.getElementById("pageLink").href; // Propiedad que devuelve la url en la que está el script
   }, 3000);
+
 }
 
 buttonInputSelector.addEventListener("click", validarCredenciales);
-
-// Guardar en Cards//
-// const cardData = JSON.parse(localStorage.getItem("credenciales"));
-// document.getElementById(
-//   "userGuardado"
-// ).innerHTML = `<p> Usuarios: ${cardData.nombre}</p> <p>Correo: ${cardData.email}</p>`;
-// console.log(cardData.nombre);
