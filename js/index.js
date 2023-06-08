@@ -19,11 +19,6 @@ function guardarUsuario() {
   console.log(credenciales);
 }
 
-// Borrar mensaje
-setTimeout(function () {
-  parrafoErrorSelector.innerHTML = ""
-}, 3000);
-
 // Función Validar
 function validarCredenciales(event) {
   event.preventDefault();
@@ -71,6 +66,11 @@ function validarCredenciales(event) {
     parrafoErrorSelector.innerHTML = "";
     parrafoExitoSelector.innerHTML = "Usuario registrado con éxito";
   }
+  
+  // Borrar mensaje
+  setTimeout(function () {
+    parrafoErrorSelector.innerHTML = "";
+  }, 3000);
 }
 
 buttonInputSelector.addEventListener("click", validarCredenciales);
