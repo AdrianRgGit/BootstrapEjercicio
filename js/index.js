@@ -1,10 +1,10 @@
 // Selectores
-const nameInputSelector = document.querySelector("#nameInput");
-const emailInputSelector = document.querySelector("#emailInput");
-const passwordInputSelector = document.querySelector("#passwordInput");
-const confirmPasswordInputSelector = document.querySelector("#confirmPasswordInput");
-const buttonInputSelector = document.querySelector("#buttonInput");
-const parrafoSelector = document.querySelector("#parrafo");
+const nameInputSelector = document.querySelector("#name-input");
+const emailInputSelector = document.querySelector("#email-input");
+const passwordInputSelector = document.querySelector("#password-input");
+const confirmPasswordInputSelector = document.querySelector("#confirm-password-input");
+const buttonInputSelector = document.querySelector("#button-input");
+const parrafoSelector = document.querySelector("#p-error");
 
 let credenciales = {};
 
