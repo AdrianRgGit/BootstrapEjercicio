@@ -30,25 +30,9 @@ function validarCredenciales(event) {
     confirmPasswordInputSelector.value === ""
   ) {
     parrafoSelector.innerHTML = "Rellene todos los campos";
+    borrarMensaje();
   }
-
-  //   Validación email
-  else if (
-    /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(emailInputSelector.value) !== true
-  ) {
-    parrafoSelector.innerHTML = "Introduzca un email válido";
-  }
-
-  //   Validación Contraseñas iguales
-  else if (passwordInputSelector.value !== confirmPasswordInputSelector.value) {
-    parrafoSelector.innerHTML = "Las contraseñas no coinciden";
-  }
-
-  //   Validación contraseña
-  else if (/^[a-zA-Z]\w{3,14}$/.test(passwordInputSelector.value)) {
-    parrafoSelector.innerHTML = "Introduzca una contraseña válida";
-  }
-
+  
   //   Todas las validaciones son correctas
   else {
     guardarUsuario();
@@ -62,9 +46,9 @@ function guardarUsuario() {
 }
 
 // Borrar mensaje
-// setTimeout(function () {
-//   parrafoSelector.innerHTML = ""
-// }, 3000);
+setTimeout(function borrarMensaje() {
+  parrafoSelector.innerHTML = ""
+}, 3000);
 
 buttonInputSelector.addEventListener("click", validarCredenciales);
 
