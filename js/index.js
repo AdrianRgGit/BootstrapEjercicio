@@ -5,6 +5,8 @@ const passwordInputSelector = document.querySelector("#password-input");
 const confirmPasswordInputSelector = document.querySelector("#confirm-password-input");
 const buttonInputSelector = document.querySelector("#button-input");
 const parrafoSelector = document.querySelector("#p-error");
+const cardNombreSelector = document.querySelector("#name-card");
+const cardEmailSelector = document.querySelector("#email-card");
 
 let credenciales = {};
 
