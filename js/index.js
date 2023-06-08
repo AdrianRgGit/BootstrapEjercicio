@@ -2,9 +2,7 @@
 const nameInputSelector = document.querySelector("#name-input");
 const emailInputSelector = document.querySelector("#email-input");
 const passwordInputSelector = document.querySelector("#password-input");
-const confirmPasswordInputSelector = document.querySelector(
-  "#confirm-password-input"
-);
+const confirmPasswordInputSelector = document.querySelector("#confirm-password-input");
 const buttonInputSelector = document.querySelector("#button-input");
 const parrafoSelector = document.querySelector("#p-error");
 const cardNombreSelector = document.querySelector("#name-card");
@@ -69,8 +67,6 @@ function guardarUsuario() {
 buttonInputSelector.addEventListener("click", validarCredenciales);
 
 // Guardar en Cards//
-// const cardData = JSON.parse(localStorage.getItem("credenciales"));
-// document.getElementById(
-//   "userGuardado"
-// ).innerHTML = `<p> Usuarios: ${cardData.nombre}</p> <p>Correo: ${cardData.email}</p>`;
-// console.log(cardData.nombre);
+const cardData = JSON.parse(localStorage.getItem("credenciales"));
+cardEmailSelector.innerHTML = `<p> Usuarios: ${cardData.nombre}</p> <p>Correo: ${cardData.email}</p>`;
+console.log(cardData.nombre);
