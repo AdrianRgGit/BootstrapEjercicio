@@ -6,7 +6,7 @@ const confirmPasswordInputSelector = document.querySelector(
   "#confirm-password-input"
 );
 const buttonInputSelector = document.querySelector("#button-input");
-const parrafoSelector = document.querySelector("#p-error");
+const parrafoErrorSelector = document.querySelector("#p-error");
 const cardNombreSelector = document.querySelector("#name-card");
 const cardEmailSelector = document.querySelector("#email-card");
 
@@ -29,14 +29,14 @@ function validarCredenciales(event) {
     passwordInputSelector.value === "" ||
     confirmPasswordInputSelector.value === ""
   ) {
-    parrafoSelector.innerHTML = "Rellene todos los campos";
+    parrafoErrorSelector.innerHTML = "Rellene todos los campos";
     borrarMensaje();
   }
   
   //   Todas las validaciones son correctas
   else {
     guardarUsuario();
-    parrafoSelector.innerHTML = "Usuario registrado con éxito";
+    parrafoErrorSelector.innerHTML = "Usuario registrado con éxito";
   }
 }
 
@@ -47,7 +47,7 @@ function guardarUsuario() {
 
 // Borrar mensaje
 setTimeout(function borrarMensaje() {
-  parrafoSelector.innerHTML = ""
+  parrafoErrorSelector.innerHTML = ""
 }, 3000);
 
 buttonInputSelector.addEventListener("click", validarCredenciales);
