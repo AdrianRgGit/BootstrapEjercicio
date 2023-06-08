@@ -1,213 +1,109 @@
-# 3rd React Project - Social Network
+# Proyecto Bootstrap
 
- <h3 align="center">MERN STACK FRONTEND PROJECT</h3>
+ <h3 align="center">Proyecto creación de usuario</h3>
 
   <p align="center">
-    Social Network made using Javascript and React with Redux and SASS.
+    <a href="https://github.com/miguelherreravillanueva/Proyecto-React.SocialNetwork"><strong>GitHub »</strong></a>
     <br />
-    <a href="https://github.com/miguelherreravillanueva/Proyecto-React.SocialNetwork"><strong>Explore the docs »</strong></a>
-    <br />
-    ·
-    <a href="https://github.com/miguelherreravillanueva/Proyecto-React.SocialNetwork/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/miguelherreravillanueva/Proyecto-React.SocialNetwork/issues">Request Feature</a>
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Índice</summary>
   <ol>
-        <li><a href="#objectives">Objectives</a></li>
+        <li><a href="#objectives">Objetivos</a></li>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Sobre el proyecto</a>
       <ul>
-        <li><a href="#endpoints">Endpoints</a></li>
-         <li><a href="#built-with">Built With</a></li>
+         <li><a href="#built-with">Realizado con</a></li>
       </ul>   
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Como empezar</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#prerequisites">Requisitos</a></li>
       </ul>
     </li>
-    <li><a href="#future-roadmap">Future Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact">Contacto</a></li>
   </ol>
 </details>
 
 <!-- ABOUT THE OBJECTIVES -->
-## Objectives
-### Development of a social network where users will:
+
+## Objetivos
+
+### Funcionalidades de la web:
+
 <objectives>
   <ol>
-    <li>Register</li>
-    <li>Log in</a></li>
-    <li>View profile</a></li>
-    <li>Create posts</a></li>
-    <li>Add comments</a></li>
+    <li>Registro de usuario</li>
+    <li>Vista previa de usuarios registrados</a></li>
 </ol>
 </objectives>
 
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
 
-In this project, a social network is developed where users will register, log in, view their profile and create posts and comments using the Social Network API created in the 2nd Backend Project <a href="https://github.com/miguelherreravillanueva/Proyecto-Backend.Social_Network"></a>, 
+## Sobre el proyecto
 
+En este proyecto se han aplicado todos los conocimientos adquiridos durante el curso. Hemos creado una web donde un usuario se puede dar de alta y alamacenarlo en el "local storage" de la web. Los usuarios registrados se mostrarán en la pantalla principal.
+
+A todas las páginas se les ha dado un estilo utilizando <a href="https://getbootstrap.com/">Bootstrap</a>.
 
 ### Views
 
 <views>
  
   <ol>
-    <li>Home</a></li>
-    <li>Admin</a></li>
-    <li>Profile</a></li>
-    <li>Log out</a></li>
-        ...
-    <li>Register</a></li>
-    <li>Log in</a></li>
+    <li>Inicio</a></li>
+    <li>Registro</a></li>
   </ol>
 </views>
 
+<p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Hecho con
 
+- JavaScript
+- HTML5
+- CSS
+- Bootstrap
 
-### Built With
-
-* [![Node][Node.JS]][Node.JS-url]
-* [![React][React]][React-url]
-* [![MongoDB][MongoDB]][MongoDB-url]
-* [![SASS][SASS]][SASS-url]
-
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
 
 <!-- GETTING STARTED -->
-## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+## Como empezar
 
-### Prerequisites
+### Requisitos
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Esto es lo necesario para poder editar la web sin ningún problema:
+
+- <a href="https://getbootstrap.com/docs/3.4/getting-started/"> Bootstrap</a>
   ```sh
-  npm install react sass
+  Instalación de Bootstrap
   ```
 
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app.
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/miguelherreravillanueva/Proyecto-React.SocialNetwork
-   ```
-3. Install NPM packages
-   ```sh
-   npm install react sass
-   ```
-4. Ready to start!
-  ```sh
-  npm start
-  ```
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- FUTURE -->
-## Future Roadmap
-
-- [ ] Add a different style
-- [ ] Add Multer to upload images
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/YourName`)
-3. Commit your Changes (`git commit -m 'Add some YourName'`)
-4. Push to the Branch (`git push origin feature/YourName`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-This project is under license of Miguel Herrera
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-This space is made to list my favourites Social Networks projects that I have explored and inspired by while doing my app.
-
-* https://github.com/msalvatore82/BallFriends-RedSocial
-* https://github.com/DanielMiguelez/Final-Project-Daniel-Miguelez
-* https://github.com/Molerog/Red-Social
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
 
 <!-- PREVIEW -->
-## Preview 
 
-- General overview gif
+## Preview
 
-![foto](./src/assets/ace7bd21-76e2-41d6-a0e3-30cd413b56bb.gif)
+- Preview de la página
 
-
+![foto](assets/gif/Bootstrap%20-%20Gif.gif)
 
 <!-- CONTACT -->
-## Contact 
 
-  <p align="center">
-Miguel Herrera
+## Contact
+<a href="https://github.com/AdrianRgGit?tab=repositories">Adrián Ramírez</a>
 
-<a href = "mailto:mirkouda@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-    <a href="https://www.linkedin.com/in/mherrevi/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-</p>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<a href="https://github.com/patrigarcia?tab=repositories">Patrizia González</a>
+
+<p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
 
 ---
-
-Developed by [Miguel Herrera](https://github.com/miguelherreravillanueva)
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -237,7 +133,5 @@ Developed by [Miguel Herrera](https://github.com/miguelherreravillanueva)
 [SASS-url]: https://sass-lang.com/
 [React]: https://img.shields.io/badge/React-219ebc?style=for-the-badge&logo=React&typoColor=fedcba&logoColor=white
 [React-url]: https://es.reactjs.org/
-
-
 [Postman]: https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white
 [Postman-url]: https://www.postman.com/
