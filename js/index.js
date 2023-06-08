@@ -37,7 +37,7 @@ function validarCredenciales(event) {
     confirmPasswordInputSelector.value === ""
   ) {
     parrafoExitoSelector.innerHTML = "";
-    parrafoErrorSelector.innerHTML = "Rellene todos los campos";
+    parrafoErrorSelector.innerHTML = `<p class="alert alert-danger">"Las contraseñas no coinciden"</p>`;
   }
 
   //   Validación email
@@ -45,28 +45,28 @@ function validarCredenciales(event) {
     /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/.test(emailInputSelector.value) !== true
   ) {
     parrafoExitoSelector.innerHTML = "";
-    parrafoErrorSelector.innerHTML = "Introduzca un email válido";
+    parrafoErrorSelector.innerHTML = `<p class="alert alert-danger">"Las contraseñas no coinciden"</p>`;
   }
+  
+    //   Validación contraseña
+    else if (/^[a-zA-Z]\w{3,14}$/.test(passwordInputSelector.value)) {
+      parrafoExitoSelector.innerHTML = "";
+      parrafoErrorSelector.innerHTML = `<p class="alert alert-danger">"Las contraseñas no coinciden"</p>`;
+    }
 
   //   Validación Contraseñas iguales
   else if (passwordInputSelector.value !== confirmPasswordInputSelector.value) {
     parrafoExitoSelector.innerHTML = "";
-    parrafoErrorSelector.innerHTML = "Las contraseñas no coinciden";
-  }
-
-  //   Validación contraseña
-  else if (/^[a-zA-Z]\w{3,14}$/.test(passwordInputSelector.value)) {
-    parrafoExitoSelector.innerHTML = "";
-    parrafoErrorSelector.innerHTML = "Introduzca una contraseña válida";
+    parrafoErrorSelector.innerHTML = `<p class="alert alert-danger">Las contraseñas no coinciden</p>`;
   }
 
   //   Todas las validaciones son correctas
   else {
     guardarUsuario();
     parrafoErrorSelector.innerHTML = "";
-    parrafoExitoSelector.innerHTML = "Usuario registrado con éxito";
+    parrafoExitoSelector.innerHTML = `<p class="alert alert-success">Usuario registrado con éxito</p>`;
   }
-  
+
   // Borrar mensaje
   setTimeout(function () {
     parrafoErrorSelector.innerHTML = "";
