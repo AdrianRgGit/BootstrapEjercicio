@@ -50,6 +50,9 @@ En este proyecto se han aplicado todos los conocimientos adquiridos durante el c
 
 A todas las páginas se les ha dado un estilo utilizando <a href="https://getbootstrap.com/">Bootstrap</a>.
 
+Se ha realizado una presentación para acompañar el proyecto. Esta presentación proporciona un conocimiento básico sobre el uso de Bootstrap.
+<a href="https://www.canva.com/design/DAFlIZAKHN4/8JdSRT9e6LmPz0ys5fWgLw/view?utm_content=DAFlIZAKHN4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Presentación</a>
+
 ### Secciones de la web
 
 <views>
