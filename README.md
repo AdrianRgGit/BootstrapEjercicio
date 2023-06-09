@@ -12,20 +12,20 @@
 <details>
   <summary>Índice</summary>
   <ol>
-        <li><a href="#objectives">Objetivos</a></li>
+        <li><a href="#Objetivos">Objetivos</a></li>
     <li>
-      <a href="#about-the-project">Sobre el proyecto</a>
+      <a href="#Sobre el proyecto">Sobre el proyecto</a>
       <ul>
-         <li><a href="#built-with">Realizado con</a></li>
+         <li><a href="#Realizado con">Realizado con</a></li>
       </ul>   
     </li>
     <li>
-      <a href="#getting-started">Como empezar</a>
+      <a href="#Como empezar">Como empezar</a>
       <ul>
-        <li><a href="#prerequisites">Requisitos</a></li>
+        <li><a href="#Requisitos">Requisitos</a></li>
       </ul>
     </li>
-    <li><a href="#contact">Contacto</a></li>
+    <li><a href="#Contacto">Contacto</a></li>
   </ol>
 </details>
 
@@ -50,7 +50,7 @@ En este proyecto se han aplicado todos los conocimientos adquiridos durante el c
 
 A todas las páginas se les ha dado un estilo utilizando <a href="https://getbootstrap.com/">Bootstrap</a>.
 
-### Views
+### Secciones de la web
 
 <views>
  
@@ -62,7 +62,7 @@ A todas las páginas se les ha dado un estilo utilizando <a href="https://getboo
 
 <p align="right">(<a href="#readme-top">Volver al inicio</a>)</p>
 
-### Hecho con
+### Realizado con
 
 - JavaScript
 - HTML5
@@ -92,11 +92,11 @@ Esto es lo necesario para poder editar la web sin ningún problema:
 
 - Preview de la página
 
-![foto](assets/gif/Bootstrap%20-%20Gif.gif)
+![foto](assets/gif/Web%20gif.gif)
 
 <!-- CONTACT -->
 
-## Contact
+## Contacto
 <a href="https://github.com/AdrianRgGit?tab=repositories">Adrián Ramírez</a>
 
 <a href="https://github.com/patrigarcia?tab=repositories">Patrizia González</a>
